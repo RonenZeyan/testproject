@@ -3,12 +3,12 @@ public class SharedData
 	private int [] array;
 	private boolean [] winArray;
 	private boolean flag;
-	private final int bb;
+	private final int bbb;
 	
 	public SharedData(int[] array, int b) {
 		
 		this.array = array;
-		this.bb = b;
+		this.bbb = b;
 	}
 
 	public boolean[] getWinArray() 
@@ -28,7 +28,7 @@ public class SharedData
 
 	public int getB() 
 	{
-		return bb;
+		return bbb;
 	}
 
 	public boolean getFlag() 
